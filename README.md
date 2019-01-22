@@ -204,5 +204,5 @@ class A {
 
 ### How can this be improved?
 
-In JSON text generation, other libraries can be used to ease up life because then you don't need to care about the individual quotation marks, colons and curly braces. That can work, but we want to have some kind of flexibility as we are already dependent on (https://mvnrepository.com/artifact/org.json/json/20140107)['org.json:json:20140107']
+In JSON text generation, other libraries can be used to ease up life because then you don't need to care about the individual quotation marks, colons and curly braces. That can work, but we want to have some kind of flexibility as we are already dependent on (org.json:json:20140107)[https://mvnrepository.com/artifact/org.json/json/20140107]
 
