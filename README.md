@@ -36,6 +36,20 @@ JSON is great.
 
 ### How to use this library
 
+There is a "jsonManager.jar" on the releases page. You can go there and include directly in your class path. Alternatively, you can use gradle. Then you need to make sure you include these:
+
+```
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.157239n:JSON-manager:2c1cba1ab0'
+}
+```
+
+Detailed instructions to include these kinds of libraries can be found on my other library Graph2D: https://github.com/157239n/Graph2D
+
 There are 3 main objects: JSONConstantsBase, JSONImporter and JSONExporter.
 
 Let's say your object to import and export is called "AbstractProperty". Inside you define 3 other classes that looks like this:
